@@ -1,0 +1,21 @@
+接口：
+    注册登录接口：http://47.93.127.43:1907
+    咪咕音乐接口：
+        {}内容为携带变化参数
+        代理："/migu":http://m.music.migu.cn/migu
+        搜索接口：/remoting/autocomplete_tag?keyword={搜索内容}
+        歌单接口：
+            推荐：/remoting/playlist_bycolumnid_tag?playListType=2&type=1&columnId={15127315}&startIndex={0}
+            最新：/remoting/playlist_bycolumnid_tag?playListType=2&type=1&columnId={15127272}&startIndex={0}
+            经典老歌：/remoting/playlist_bycolumnid_tag?playListType=2&type=1&tagId={1000001635}&startIndex={0}
+        现场接口：
+            演唱会全程回顾：/remoting/cms_list_tag?pageSize=10&nid={23887071}&pageNo=0&type={2006}
+            爱豆情报站：/remoting/cms_list_tag?pageSize=10&nid={24038478}&pageNo=0&type={2006}
+            mv放映厅：/remoting/cms_list_tag?pageSize=10&nid={24049544}&pageNo=0&type={2033}
+        榜单：
+            榜单主题：/remoting/cms_list_tag?nid=23603695&type=2011&pageNo=0&pageSize=1
+            各类榜单：/remoting/cms_list_tag?nid={23603721}&pageSize=3&pageNo=0
+        数字专辑：
+            无（跳转9图拼接下载页面）
+        彩铃：
+            列表：/remoting/cms_list_tag?pageSize=15&nid=10955383&pageNo=0

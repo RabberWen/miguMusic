@@ -1,0 +1,7 @@
+export default {
+    YINREN:"YINREN",
+    LEFANG:"LEFANG",
+    FANGYINGTING:"FANGYINGTING",
+    MINYUE:"MINYUE",
+    LEBANG:"LEBANG",
+}

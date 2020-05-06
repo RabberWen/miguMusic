@@ -1,0 +1,5 @@
+export default {
+    GETUSERINFO: "GETUSERINFO",
+    GETLISTINFO: "GETLISTINFO",
+    GETLIST: "GETLIST",
+}
